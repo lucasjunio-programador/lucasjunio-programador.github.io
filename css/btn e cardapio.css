@@ -1,0 +1,38 @@
+button{
+    border: black;
+    border-radius: 40px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    }
+    .cardapio span{
+    display: block;
+    color:white;
+    }
+    .cardapio{
+    position: absolute;
+    display: none;
+    }
+    nav .submenu:hover .cardapio{
+    display: block !important;
+    height: 60px;
+    z-index: 20;
+    }
+    nav{
+    background-color: black;
+    border-radius: 14px;
+    }
+    nav li {
+    display: inline-block;
+    }
+    span {font-size: 17px;}
+    nav li span {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    }
+    nav li span:hover{
+    background-color: red;
+    border-radius: 5px;
+    }

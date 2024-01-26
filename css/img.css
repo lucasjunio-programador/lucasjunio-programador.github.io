@@ -1,0 +1,12 @@
+.prato{height:32rem ;width: 32rem;background-size: cover;box-shadow: -15px 17px 17px;}
+
+/* #animaçao{
+    width: 90px;
+    height: 90px;
+    animation: exemple infinite 1.5s;
+}
+@keyframes exemple {
+    50% {
+        transform: translateY(-10%);
+    }
+} */
