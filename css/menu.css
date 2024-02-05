@@ -49,9 +49,9 @@ h1{
             margin: 0 auto;
             object-fit: cover;
         }
-        .pedidos{
+        /* .pedidos{
             display: none;
-        }
+        } */
         .cardapio{
             display:block;
         }
