@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+body{
+    background-color: #ddd;
+}
+#cardapiocopy-bg{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #48e;
+    border-radius: 10px;
+    width: 50vh;
+
+}
+#paragrafocardapio{
+    color: white;
+    background-color: #48e;
+}
+.btnmandar{
+    color: #eee;
+    background-color: #48e;
+    border-radius: 3px;
+    padding: 4px;
+    border: #48e;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-bottom: 9vh;
+
+}
+.add_note_article{
+    background-color: #48e;
+    width: 50vw;
+    height: 40vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.add_note_title{
+    margin: 10px 0 5px 0;
+    height: 20%;
+    width: 85%;
+    padding-left: 8px;
+    border-radius: 20px;
+    border: 1px solid #333;
+}
+.add_note_text{
+    resize: none;
+    width: 85%;
+    height: 60%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    margin-bottom: 5px;
+}
+.add_note_title::placeholder{
+    text-align:center;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.add_note_btn, .delete_all_note_btn{
+overflow: hidden;
+margin: 3px;
+width: 85%;
+height: 20%;
+border-radius: 10px;
+border: 1px solid #333;
+}
+.delete_all_note_btn{
+    background-color: #f44;
+    color: #eee;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.your_note{
+    background-color: #48e;
+    width: 20vw;
+    height: 30vh;
+    margin: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 20px;
+}
+.your_note input{
+    margin: 10px 15px 5px 0;
+    height: 20%;
+    width: 85%;
+    padding-left: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+.your_note textarea{
+    resize: none;
+    border: none;
+    margin-right: 15px;
+    width: 85%;
+    height: 60%;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+div{
+    overflow: hidden;
+    margin: 3px;
+}
+.your_note img{
+    width: 1.8em;
+    height: 1.8em;
+    margin-right: 5px;  
+}
