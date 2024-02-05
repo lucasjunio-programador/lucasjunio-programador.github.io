@@ -49,11 +49,7 @@ h1{
             margin: 0 auto;
             object-fit: cover;
         }
-        /* .pedidos{
-            display: none;
-        } */
-        .cardapio{
-            display:block;
+        .pedidos{
+        display: flex;
         }
-    
       }
